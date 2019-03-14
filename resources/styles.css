@@ -1,0 +1,8 @@
+.masterhead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('/header-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }

@@ -1,0 +1,56 @@
+{
+	"first_name": "Craig",
+	"last_name": "Marais",
+	"date_of_birth": "12 June 1985",
+	"title": "Lecturer",
+	"experience": 
+	[
+		{
+			"title": "Lecturer",
+			"employer": "Noroff",
+			"start_date":"September 2018",
+			"end_date":"",
+			"city": "Oslo",
+			"country": "Norway",
+			"description": "Primary instructor for a number of short course offerings."
+
+		},
+		{
+			"title": "Project Supervisor",
+			"employer": "Nelson Mandela University",
+			"start_date":"May 2018",
+			"end_date":"September 2018",
+			"city": "Port Elizabeth",
+			"country": "South Africa",
+			"description": "Supervisor for six groups of 3rd year projects in the School of ICT."
+		},
+		{
+			"title": "Programmer",
+			"employer": "Nelson Mandela University",
+			"start_date":"July 2017",
+			"end_date":"March 2018",
+			"city": "Port Elizabeth",
+			"country": "South Africa",
+			"description": "EEESCHEP Project website and content development for the eNtsa group."
+		},
+		{
+			"title": "Programmer",
+			"employer": "Fuzzy Logic",
+			"start_date":"February 2016",
+			"end_date":"May 2016",
+			"city": "George",
+			"country": "South Africa",
+			"description": "I worked primarily in C# on a bespoke project for an international client (subject to NDA)."
+		}
+	],
+	"education" : 
+	[
+		{
+			"qualification" : "Master of Technology",
+			"start_year" : "2012",
+			"end_year" : "2013",
+			"institution" : "Nelson Mandela Metropolitan University",
+			"description" : "Dissertation topic: Guidelines for the use of the Indie approach in game development projects in the context of a capstone experience"
+		}
+	]
+}
