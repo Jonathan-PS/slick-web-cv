@@ -20,7 +20,7 @@ html
                                 a(class="nav-link" href="/data") Data
                             li(class="nav-item active")
                                 a(class="nav-link" href="/") Hjem
-                                   
+            <br>   <br>                     
             header(class="masterhead")
                 div(class="container h-100")
                     div(class="row h-100 align-items-center")
@@ -33,32 +33,33 @@ html
                                     img( id="social-media-icon" src="linkedin-icon.png") 
                                 a(href=links.github)
                                     img( id="social-media-icon" src="github-icon.png") 
-
-            div(class="row main-div")                
-                div(class="col-xs-6 col-md-4 font-weight-light") 
-                    h2(class="font-weight-light") Kvalifikasjoner
-                div(class="col-xs-12 col-md-8")
-                    each qualif in qualifications
-                        li(class="font-weight-light") #{qualif}
-
-            div(class="row main-div")                
-                div(class="col-xs-6 col-md-4 font-weight-light") 
-                    h2(class="font-weight-light") Arbeidserfaring
-                div(class="col-xs-12 col-md-8")
-                    each experience in work_experience
-                        h5(class="font-weight-light") #{experience.title}
-                        p(class="font-weight-heavy") #{experience.company}, #{experience.location}, #{experience.from} - #{experience.to}
-                        p(class="font-weight-light") #{experience.description}
-
-            div(class="row main-div")                
-                div(class="col-xs-6 col-md-4 font-weight-light") 
-                    h2(class="font-weight-light") Utdanning
-                div(class="col-xs-12 col-md-8")
-                    each edu in education
-                        h5(class="font-weight-light") #{edu.field_of_study}, #{edu.degree}
-                        p(class="font-weight-heavy") #{edu.school}, #{edu.from_year} - #{edu.to_year}
-                        p(class="font-weight-light") #{edu.description}
-                        br()
+            <br><br>
+            div(class="main-div")
+                div(class="row")                
+                    div(class="col-xs-6 col-md-4 font-weight-light") 
+                        h2(class="font-weight-light") Kvalifikasjoner
+                    div(class="col-xs-12 col-md-8")
+                        each qualif in qualifications
+                            li(class="font-weight-light") #{qualif}
+                <br><br>
+                div(class="row")                
+                    div(class="col-xs-6 col-md-4 font-weight-light") 
+                        h2(class="font-weight-light") Arbeidserfaring
+                    div(class="col-xs-12 col-md-8")
+                        each experience in work_experience
+                            h5(class="font-weight-light") #{experience.title}
+                            p(class="font-weight-heavy") #{experience.company}, #{experience.location}, #{experience.from} - #{experience.to}
+                            p(class="font-weight-light") #{experience.description}
+                <br><br>
+                div(class="row")                
+                    div(class="col-xs-6 col-md-4 font-weight-light") 
+                        h2(class="font-weight-light") Utdanning
+                    div(class="col-xs-12 col-md-8")
+                        each edu in education
+                            h5(class="font-weight-light") #{edu.field_of_study}, #{edu.degree}
+                            p(class="font-weight-heavy") #{edu.school}, #{edu.from_year} - #{edu.to_year}
+                            p(class="font-weight-light") #{edu.description}
+                            br()
 
 
         block foot
