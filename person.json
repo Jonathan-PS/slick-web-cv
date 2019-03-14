@@ -3,7 +3,7 @@
     "last_name": "Stang",
     "headline": "Fullstack Java-utvikler",
     "age": 25,
-    "technologies": 
+    "qualifications": 
         ["Java", "Spring","Javascript", "Jquery",
                     "Mysql", "Postgresql"],
     "work_experience": [

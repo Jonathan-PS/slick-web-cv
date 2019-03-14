@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const app = express();
 const pug = require('pug');
-const port = 8080
+const port = 8081
 
 // load data from data.json
 let rawData = fs.readFileSync("person.json");
@@ -23,4 +23,4 @@ app.get('/', (req, res) => {
    res.render('index', data)
 });
 
-app.listen(process.env.PORT || 8080)
+app.listen(process.env.PORT || port)
