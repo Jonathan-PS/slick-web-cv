@@ -6,7 +6,7 @@ const pug = require('pug');
 const port = 8080
 
 // load data from data.json
-let rawData = fs.readFileSync("data.json");
+let rawData = fs.readFileSync("person.json");
 const data = JSON.parse(rawData);
 
 // Set static resources

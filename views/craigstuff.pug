@@ -1,0 +1,9 @@
+            h1 #{first_name} #{last_name}
+            p #{date_of_birth} sdfsd fs 
+            div(class="row")
+                each job in experience
+                    div(class = "card" style="width: 18rem;") 
+                        div(class="card-body")
+                            h5(class ="card-title" ) #{job.title}
+                            p(class="card-content") #{job.employer}
+                            p(class="card-text") #{job.description}	
