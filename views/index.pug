@@ -17,7 +17,9 @@ html
                     div(class="collapse navbar-collapse" id="navbarResponsive")
                         ul(class="navbar-nav ml-auto")
                             li(class="nav-item active")
-                                a(class="nav-link" href="/") Home
+                                a(class="nav-link" href="/data") Data
+                            li(class="nav-item active")
+                                a(class="nav-link" href="/") Hjem
                                    
             header(class="masterhead")
                 div(class="container h-100")
@@ -34,14 +36,14 @@ html
 
             div(class="row main-div")                
                 div(class="col-xs-6 col-md-4 font-weight-light") 
-                    h2(class="font-weight-light") Technologies
+                    h2(class="font-weight-light") Kvalifikasjoner
                 div(class="col-xs-12 col-md-8")
                     each qualif in qualifications
                         li(class="font-weight-light") #{qualif}
 
             div(class="row main-div")                
                 div(class="col-xs-6 col-md-4 font-weight-light") 
-                    h2(class="font-weight-light") Work Experience
+                    h2(class="font-weight-light") Arbeidserfaring
                 div(class="col-xs-12 col-md-8")
                     each experience in work_experience
                         h5(class="font-weight-light") #{experience.title}
@@ -50,7 +52,7 @@ html
 
             div(class="row main-div")                
                 div(class="col-xs-6 col-md-4 font-weight-light") 
-                    h2(class="font-weight-light") Education
+                    h2(class="font-weight-light") Utdanning
                 div(class="col-xs-12 col-md-8")
                     each edu in education
                         h5(class="font-weight-light") #{edu.field_of_study}, #{edu.degree}
