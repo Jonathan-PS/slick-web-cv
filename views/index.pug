@@ -11,7 +11,7 @@ html
         block content
             nav(class="navbar navbar-expand-lg navbar-dark bg-dark static-top")
                 div(class="container")
-                    a(class="navbar-brand" href="#") #{first_name} #{last_name}'s CV
+                    a(class="navbar-brand font-weight-light" href="#") #{first_name} #{last_name}'s CV
                     button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation")
                         span(class="navbar-toggler-icon")
                     div(class="collapse navbar-collapse" id="navbarResponsive")
@@ -19,21 +19,18 @@ html
                             li(class="nav-item active")
                                 a(class="nav-link" href="/") Home
                                    
-
-
             header(class="masterhead")
                 div(class="container h-100")
                     div(class="row h-100 align-items-center")
                         div(class="col-12 text-center")
                             img(src="jonathan.jpg" alt="..." class="circle profile-pic")
                             h1(class="font-weight-light text-white")  #{first_name} #{last_name}
-                            p(class="lead text-white") #{headline}
-                            p(class="lead text-white")
+                            p(class="lead text-white font-weight-light") #{headline}
+                            p()
                                 a(href=links.linkedin)
                                     img( id="social-media-icon" src="linkedin-icon.png") 
                                 a(href=links.github)
                                     img( id="social-media-icon" src="github-icon.png") 
-
 
             div(class="row main-div")                
                 div(class="col-xs-6 col-md-4 font-weight-light") 
@@ -41,7 +38,6 @@ html
                 div(class="col-xs-12 col-md-8")
                     each qualif in qualifications
                         li(class="font-weight-light") #{qualif}
-
 
             div(class="row main-div")                
                 div(class="col-xs-6 col-md-4 font-weight-light") 
@@ -51,8 +47,6 @@ html
                         h5(class="font-weight-light") #{experience.title}
                         p(class="font-weight-heavy") #{experience.company}, #{experience.location}, #{experience.from} - #{experience.to}
                         p(class="font-weight-light") #{experience.description}
-                        br()
-
 
             div(class="row main-div")                
                 div(class="col-xs-6 col-md-4 font-weight-light") 
@@ -66,5 +60,7 @@ html
 
 
         block foot
-            footer
-                div(class="footer-copyright text-center") Copyright Jonathan and Ralf 2019
+            footer(class="page-footer font-small bg-dark")
+                div(class="footer-copyright text-center py-3 text-white font-weight-light") &copy; 2019 Jonathan and Ralf 
+    </div>
+
