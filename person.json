@@ -3,7 +3,7 @@
     "last_name": "Stang",
     "headline": "Fullstack Java-utvikler",
     "age": 25,
-    "description": "Jonathan er en fullstack utvikler med analytisk bakgrunn og bred kompetanse. Innen Java har han erfaring med Spring Framework, Maven, REST, JDBC, blant andre. I tillegg har han erfaringer med både Python og C. Han har også et statistisk fundament, er dreven i R og har gjennom studietiden jobbet med maskinlæringsalgoritmer. Han har stor interesse for digital teknologi, utvikling og dataanalyse",
+    "description": "Jonathan er en fullstack utvikler med analytisk bakgrunn og bred kompetanse. Innen Java har han erfaring med Spring Framework, Maven, REST, JDBC, blant andre. I tillegg har han erfaringer med både Python og C. Han har også et statistisk fundament, er dreven i R og har gjennom studietiden jobbet med maskinlæringsalgoritmer. Han har stor interesse for digital teknologi, utvikling og dataanalyse.",
     "qualifications": 
         ["Java", "Spring","Javascript", "Jquery",
                     "Mysql", "Postgresql"],
@@ -35,6 +35,7 @@
         "description": "Spesialisering: Dataanalyse. En tverrfaglig grad med emner i matte, programmering og statistikk. Avsluttet med en bacheloroppgave innen statistisk numerisk analyse, utført i R og LaTeX og skrevet på engelsk."
         }
     ],
+    "language": ["Norsk", "Engelsk", "Fransk"],
     "links": {
         "github": "https://github.com/Jonathan-PS",
         "linkedin": "https://www.linkedin.com/in/jonathanpstang"
