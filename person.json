@@ -5,8 +5,9 @@
     "age": 25,
     "description": "Jonathan er en fullstack utvikler med analytisk bakgrunn og bred kompetanse. Innen Java har han erfaring med Spring Framework, Maven, REST, JDBC, blant andre. I tillegg har han erfaringer med både Python og C. Han har også et statistisk fundament, er dreven i R og har gjennom studietiden jobbet med maskinlæringsalgoritmer. Han har stor interesse for digital teknologi, utvikling og dataanalyse.",
     "qualifications": 
-        ["Java", "Spring","Javascript", "Jquery",
-                    "Mysql", "Postgresql"],
+        ["Java","Python", "C", "SQL", "Javascript", "CSS", "Jquery",
+                    "Mysql", "Postgresql",
+                    "Spring Framework", "Maven", "Gradle", "REST", "Hibernate", "Bootstrap4"],
     "work_experience": [
         {
             "title": "Fullstack Java-utvikler",
